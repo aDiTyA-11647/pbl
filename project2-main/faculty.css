@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(135deg, #74b9ff, #0984e3);
+}
+.container {
+  width: 50%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.left {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 12px;
+  margin: 20px;
+}
+.right {
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 12px;
+  margin: 20px;
+  overflow-y: auto;
+}
+h1, h2 {
+  color: #0984e3;
+}
+input, select, button {
+  font-size: 16px;
+  margin-bottom: 10px;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  width: calc(100% - 24px);
+}
+button {
+  background-color: #00b894;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #00a884;
+}
+.add-btn {
+  background-color: #6c5ce7;
+}
+.add-btn:hover {
+  background-color: #4834d4;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th, td {
+  border: 1px solid #ccc;
+  padding: 12px;
+  text-align: center;
+}
+th {
+  background-color: #74b9ff;
+  color: white;
+}
+td button {
+  background-color: #d63031;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+td button:hover {
+  background-color: #c0392b;
+}

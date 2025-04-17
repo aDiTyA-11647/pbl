@@ -1,0 +1,50 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Subject Manager</title>
+  <link rel="stylesheet" href="subject..css" />
+</head>
+<body>
+  <div class="container left colorful-left">
+    <h1>Enter Subject Details</h1>
+    <div class="name">
+      <h2>Subject Name</h2>
+      <input type="text" id="subjectName" placeholder="Subject Name" />
+    </div>
+    <div class="type">
+      <h2>Subject Type</h2>
+      <select id="subjectType">
+        <option value="Theory">Theory</option>
+        <option value="Practical">Practical</option>
+      </select>
+    </div>
+    <div class="hrs">
+      <h2>Hours</h2>
+      <input type="number" id="subjectHours" placeholder="Hours" min="1" />
+    </div>
+    <div class="butn">
+      <button class="add-btn" onclick="addSubject()">Add Subject</button>
+    </div>
+  </div>
+
+  <div class="container right colorful-right">
+    <h2>Subjects List</h2>
+    <table id="subjectTable">
+      <thead>
+        <tr>
+          <th>Subject Name</th>
+          <th>Subject Type</th>
+          <th>Hours</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+
+  <script src="subject.js"></script>
+</body>
+</html>
